@@ -42,7 +42,7 @@ void bubblesortArray(){
 void display (){
     cout << endl;
     cout << "====================" endl;
-    cout << "elemen Array yang telah tersusun" endl;
+    cout << "Elemen Array yang telah tersusun" endl;
     cout << "====================" endl;
     cout << endl;
     for (int j = 0; j <n; j++){
@@ -57,4 +57,13 @@ void display (){
     cout << "jumlah pass = " << n-1 << endl;
     cout << endl;
     cout << endl;
+}
+int main(){
+    input ();
+
+    bubblesortArray();
+    display();
+
+    system("pause");
+    return 0;
 }
